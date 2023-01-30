@@ -1,0 +1,119 @@
+div {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-flow: column;
+    background-color: white;
+}
+
+header {
+    width: 1200px;
+    height: 400px;
+    background-image: url("/assets/design1_image2.jpg");
+    margin-top: 100px;
+    padding-top: 50px;
+    background-size: cover;
+    position: relative;
+}
+
+header .title {
+    font-size: 60px;
+    color: rgb(34, 167, 142);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    position: absolute;
+    top: -140px;
+}
+
+header nav {
+    display: flex
+}
+
+header nav a {
+    display: inline-block;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-decoration: none;
+    font-size: 20px;
+    margin: 10px;
+    border: 2px solid black;
+    padding: 10px;
+    background-color: deepskyblue;
+    color: darkolivegreen;
+    bottom: 100px;
+}
+
+.display-flex {
+    flex-direction: row;
+    position: absolute;
+    top: -60px;
+    right: 200px;
+    height: 30px;
+    width: 100px;
+    }
+
+.sub-header {
+    width: 1200px;
+    height: 70px;
+    background-color: rgb(210, 227, 24);
+    color: black;
+    font-size: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.sub-header img {
+    width: 250px;
+    height: 250px;
+    position: absolute;
+    left: 10px;
+    top: 110px;
+}
+
+main {
+    width: 1200px;
+    height: 500px;
+    color: black;
+}
+
+main article {
+    width: 70%;
+    display: block;
+    align-items: center;
+    padding-left: 300px;
+    padding-top: 2px;
+}
+
+main article h3 {
+    font-size: 25px;
+    font-style: italic;
+    font-weight: bolder;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+main article p {
+    width: 100%;
+    display: block;
+    align-items: center;
+    padding-left: 10px;
+    padding-top: 2px;
+}
+
+main article p {
+    font-size: 18px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+main p {
+    width: 70%;
+    display: block;
+    align-items: center;
+    padding-left: 300px;
+    padding-top: 30px;
+}
+
+main p {
+    font-size: 25px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
