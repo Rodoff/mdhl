@@ -4,7 +4,8 @@ body {
     display: flex;
     align-items: center;
     flex-flow: column;
-    background: whitesmoke
+    background: rgb(34,193,195);
+background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(32,159,163,0.23012955182072825) 100%);
 }
 
 header {
@@ -48,6 +49,10 @@ header .title {
     align-items: center;
     position: relative;
     margin-bottom: 10px;
+    }
+.sub-header:hover {
+    transition-duration:1s;
+     transition-timing-function:ease-in ;
 }
 
 .sub-header img {
@@ -65,7 +70,7 @@ header .title {
 
 main {
     width: 1200px;
-    height: 800px;
+    height: 1000px;
     color: black;
 }
 
@@ -180,7 +185,7 @@ main article dd {
         display: none;
     }
     .regis {
-        font-size: 14px;
+        font-size: 16px;
     }
     fieldset {
         padding-top: -25px;
@@ -188,8 +193,18 @@ main article dd {
         margin: 1px;
     }
     form h4 {
+        font-weight: bolder;
         margin-top: 5px;
+        font-size: 20px;
     }
     form li {
         list-style-type: none;
     }
+    .mapas {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+    a:hover {
+        color: rgb(242, 242, 50);
+            } 
