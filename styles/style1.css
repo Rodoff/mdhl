@@ -111,28 +111,34 @@ main {
     font-size: 30px;
     margin: 1%;
 }
+
 .dtrul {
     font-size: 25px;
     margin: 1%;
     font-weight: bolder;
 }
+
 .ddrul {
     font-size: 20px;
     margin: 1%;
 }
+
 .listaletra {
     list-style-type: lower-latin;
-    }
+}
+
 .negrita {
     font-weight: bolder;
     margin-top: -25px;
 }
+
 .artgam {
     display: flex;
     align-items: center;
     margin: 0%;
     flex-direction: column;
-    }
+}
+
 .h2gam {
     display: flex;
     align-items: center;
@@ -140,58 +146,70 @@ main {
     font-size: 40px;
     margin: 0%;
 }
+
 .text4 {
     font-size: 18px;
     margin: 1%;
     font-style: italic;
-    }
+}
+
 .text5 {
     font-size: 18px;
     margin-top: 0%;
     font-style: italic;
     text-decoration: underline;
 }
+
 .encabezado {
     font-size: 30px;
     font-weight: bolder;
 }
+
 table {
-margin-bottom: 1%;
-border: 1px black solid;
-background-color: rgba(7, 192, 192, 0.402);
+    margin-bottom: 1%;
+    border: 1px black solid;
+    background-color: rgba(7, 192, 192, 0.402);
 }
+
 th {
     font-size: 20px;
     padding: 5px;
 }
+
 .text6 {
     font-size: 18px;
     margin-top: 0%;
-    }
+}
+
 .negritaflex {
     display: flex;
     justify-content: space-around;
-margin: 0%;
-  }
+    margin: 0%;
+}
+
 .none {
     display: none;
 }
+
 .mapas h4 {
     display: flex;
     flex-direction: column;
 }
+
 .mapas {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
     margin-top: -2%;
 }
+
 .mapas2 {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
     margin-top: -2%;
 }
+
 footer {
     width: 95%;
     height: 70px;
@@ -203,6 +221,7 @@ footer {
     align-items: center;
     margin-bottom: 10px;
 }
+
 fieldset {
     border: 3px solid darkcyan;
     margin: 1px;
@@ -219,6 +238,7 @@ form li {
     margin-top: 1px;
     margin-bottom: 5px;
 }
+
 a:hover {
     color: rgb(242, 242, 50);
 }
@@ -226,27 +246,34 @@ a:hover {
 #sout:hover {
     transform: scale(1.5);
 }
+
 #gree:hover {
     transform: scale(1.5);
 }
+
 #howa:hover {
     transform: scale(1.5);
 }
+
 #marjo:hover {
     transform: scale(1.5);
 }
+
 #nort:hover {
     transform: scale(1.5);
 }
+
 #AJK:hover {
     transform: scale(1.5);
 }
+
 .aboton:hover {
     color: rgb(242, 242, 50);
     background-color: grey;
     padding: 10px;
     transform: scale(2);
 }
+
 .aboton {
     border: darkgray solid 1px;
     border-radius: 5px;
@@ -254,65 +281,114 @@ a:hover {
     background-color: silver;
     text-decoration: none;
 }
+
 a:visited {
     color: white;
-  }
+}
+
 .alink:hover {
     color: rgb(242, 242, 50);
-  }
+}
+
 .pabo {
     font-size: 40px;
     margin: 1%;
+}
+
+fieldset {
+    font-size: 20px;
+}
+
+/* #firstname {
+    width: 500px;
+}
+
+#lastname {
+    width: 350px;
+} */
+
+/* #adress {
+    width: 400px;
+}
+
+#city {
+    width: 300px;
+}
+
+#zip {
+    width: 150px;
+} */
+
+form h4 {
+    font-weight: bolder;
+    font-size: 30px;
+    margin: 1%;
+}
+
+.labelform {
+    font-weight: bolder;
+}
+
+.regis {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+ 
     }
-    fieldset {
-        font-size: 20px;
+    .www {
+        flex-grow: 0.5;
     }
-    #firstname {
-        width: 500px;
-           }
-    #lastname {
-        width: 350px;
+
+.labelform2 {
+    font-weight: bolder;
+    padding-left: 40px;
+}
+
+.posi {
+    padding-left: 40px;
+}
+
+fieldset p {
+    margin: 1%;
+}
+
+/* #parent {
+    width: 350px;
+} */
+
+.send {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    justify-content: center;
+}
+
+.growprueba {
+    display: flex;
+    flex-grow: 1;
+}
+
+.labelform3 {
+    font-weight: bolder;
+}
+
+.abc {
+    flex-grow: 1;
+}
+.cba {
+    flex-grow: 0.5;
+}
+.asd {
+    flex-grow: 1;
+    align-items: center;
     }
-    #adress {
-        width: 400px;
-    }
-    #city {
-        width: 300px;
-    }
-    #zip {
-       width: 150px; 
-    }
-    form h4 {
-        font-weight: bolder;
-        font-size: 30px;
-        margin: 1%;
-    }
-    .labelform {
-        font-weight: bolder;
-    }
-    .regis {
-        display: flex;
-        flex-wrap: nowrap;
-        flex-direction: row;
-        justify-content: flex-start;
-        align-items: center;
-    }
-    .labelform2 {
-        font-weight: bolder;
-        padding-left: 40px;
-    }
-    .posi {
-        padding-left: 40px;
-    }
-    fieldset p {
-        margin: 1%;
-    }
-    #parent {
-        width: 350px;
-    }
-    .send {
-        display: flex;
-        align-items: center;
-        padding: 10px;
-        justify-content: center;
-                }
+fieldset div {
+    display: flex;
+    justify-content: center;
+}
+.qqq {
+    padding-left: 1%;
+    padding-right: 1%;
+}
