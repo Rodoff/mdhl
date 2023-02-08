@@ -15,9 +15,11 @@ header {
 }
 
 header .title {
+    display: flex;
     font-size: 70px;
     color: rgb(255, 255, 45);
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    justify-content: center;
 }
 
 .sub-header {
@@ -201,12 +203,6 @@ footer {
     align-items: center;
     margin-bottom: 10px;
 }
-
-
-.regis {
-    font-size: 16px;
-}
-
 fieldset {
     border: 3px solid darkcyan;
     margin: 1px;
@@ -223,9 +219,6 @@ form li {
     margin-top: 1px;
     margin-bottom: 5px;
 }
-
-
-
 a:hover {
     color: rgb(242, 242, 50);
 }
@@ -233,14 +226,27 @@ a:hover {
 #sout:hover {
     transform: scale(1.5);
 }
-
+#gree:hover {
+    transform: scale(1.5);
+}
+#howa:hover {
+    transform: scale(1.5);
+}
+#marjo:hover {
+    transform: scale(1.5);
+}
+#nort:hover {
+    transform: scale(1.5);
+}
+#AJK:hover {
+    transform: scale(1.5);
+}
 .aboton:hover {
     color: rgb(242, 242, 50);
     background-color: grey;
     padding: 10px;
     transform: scale(2);
 }
-
 .aboton {
     border: darkgray solid 1px;
     border-radius: 5px;
@@ -248,3 +254,65 @@ a:hover {
     background-color: silver;
     text-decoration: none;
 }
+a:visited {
+    color: white;
+  }
+.alink:hover {
+    color: rgb(242, 242, 50);
+  }
+.pabo {
+    font-size: 40px;
+    margin: 1%;
+    }
+    fieldset {
+        font-size: 20px;
+    }
+    #firstname {
+        width: 500px;
+           }
+    #lastname {
+        width: 350px;
+    }
+    #adress {
+        width: 400px;
+    }
+    #city {
+        width: 300px;
+    }
+    #zip {
+       width: 150px; 
+    }
+    form h4 {
+        font-weight: bolder;
+        font-size: 30px;
+        margin: 1%;
+    }
+    .labelform {
+        font-weight: bolder;
+    }
+    .regis {
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    .labelform2 {
+        font-weight: bolder;
+        padding-left: 40px;
+    }
+    .posi {
+        padding-left: 40px;
+    }
+    fieldset p {
+        margin: 1%;
+    }
+    #parent {
+        width: 350px;
+    }
+    .send {
+        display: flex;
+        align-items: center;
+        padding: 10px;
+        justify-content: center;
+                }
