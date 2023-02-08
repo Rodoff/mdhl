@@ -12,21 +12,19 @@
 <body>
     <header>
         <h1 class="title">Mighty Ducks Hockey League</h1>
-        <nav>
-            <div class="display-flex">
-                <a href="./index.html">Home</a>
-                <a href="./about.html">About MDHL</a>
-                <a href="./rules.html">Rules</a>
-                <a href="./games.html">Game Information</a>
-                <a href="#">Registration</a>
-                <a href="./contact.html">contact</a>
-            </div>
-        </nav>
-
     </header>
     <div class="sub-header">
-        <h2>Registration</h2>
-        <img class="logo" src="./assets/Logo.png" alt="Logo Mighty Ducks Hockey League">
+        <nav>
+            <div class="display-flex">
+                <a class="aboton" href="./index.html">Home</a>
+                <a class="aboton" href="./about.html">About</a>
+                <a class="aboton" href="./rules.html">Rules</a>
+                <a class="aboton" href="./games.html">Game Info</a>
+                <a class="aboton" href="#">Register</a>
+                <a class="aboton" href="./contact.html">contact</a>
+            </div>
+        </nav>
+        <!-- <img class="logo" src="./assets/Logo.png" alt="Logo Mighty Ducks Hockey League"> -->
     </div>
     <main>
         <article>
@@ -35,10 +33,10 @@
                     <h4>Personal Information</h4>
                     <ul>
                         <li>
-                            <label for="firstName">Player's First Name:</label>
-                            <input type="text" id="firstName" name="firstName">
-                            <label for="lastName">Last Name:</label>
-                            <input type="text" id="lastName" name="lastName">
+                            <label for="firstname">Player's First Name:</label>
+                            <input type="text" id="firstname" name="firstname">
+                            <label for="lastname">Last Name:</label>
+                            <input type="text" id="lastname" name="lastname">
                         </li>
                         <li>
                             <label for="adress">Street Adress:</label>
@@ -50,17 +48,17 @@
                         </li>
                         <li>
                             <label for="birth">Birth Date:</label>
-                            <input type="date" id="birth" name="birth">
+                            <input type="date" id="birth" name="birth" value="2010-01-01">
                             <label>Gender:</label>
                             <input type="radio" id="male" name="gender" value="male">
-                            <label for=" male">Male</label>
+                            <label for="male">Male</label>
                             <input type="radio" id="female" name="gender" value="female">
                             <label for="female">Female</label>
                         </li>
                         <li>
-                            <label for="grade">Grade:</label>
-                            <input type="radio" id="preSchool" name="grade" value="preSchool">
-                            <label for="preSchool">Pre-School</label>
+                            <label>Grade:</label>
+                            <input type="radio" id="preschool" name="grade" value="preschool">
+                            <label for="preschool">Pre-School</label>
                             <input type="radio" id="1st" name="grade" value="1st">
                             <label for="1st">1st</label>
                             <input type="radio" id="2nd" name="grade" value="2nd">
@@ -79,43 +77,44 @@
                     <p class="regis">Closest School:</p>
                     <select name="school">
                         <option>select school</option>
-                        <option value="katzenmaierSchool">AJ Katzenmaier</option>
-                        <option value="greenbaySchool">Greenbay</option>
-                        <option value="howardSchool">Howard A Yeager</option>
-                        <option value="marjorieSchool">Marjorie P Hart</option>
-                        <option value="northSchool">North Elementary</option>
-                        <option value="southSchool">South Elementary</option>
+                        <option value="katzenmaierschool">AJ Katzenmaier</option>
+                        <option value="greenbayschool">Greenbay</option>
+                        <option value="howardschool">Howard A Yeager</option>
+                        <option value="marjorieschool">Marjorie P Hart</option>
+                        <option value="northschool">North Elementary</option>
+                        <option value="southschool">South Elementary</option>
                     </select>
                 </fieldset>
                 <fieldset>
                     <h4>What position(s) do you normally play? (check all that apply)</h4>
                     <input type="checkbox" id="forward" name="position" value="forward">
-                    <label for="position">Forward</label>
+                    <label for="forward">Forward</label>
                     <input type="checkbox" id="midfield" name="position" value="midfield">
-                    <label for="position">Midfield</label>
+                    <label for="midfield">Midfield</label>
                     <input type="checkbox" id="defense" name="position" value="defense">
-                    <label for="position">Defense</label>
+                    <label for="defense">Defense</label>
                     <input type="checkbox" id="goalkeeper" name="position" value="goalkeeper">
-                    <label for="position">Goalkeeper</label>
+                    <label for="goalkeeper">Goalkeeper</label>
                 </fieldset>
                 <fieldset>
                     <h4>Uniform Size</h4>
-                    <input type="radio" id="youth Small" name="size" value="ymall">
-                    <label for="size">Youth Small</label>
-                    <input type="radio" id="youth Medium" name="size" value="ymedium">
-                    <label for="size">Youth Medium</label>
-                    <input type="radio" id="youth Large" name="size" value="ylarge">
-                    <label for="size">Youth Large</label>
+                    <input type="radio" id="youthSmall" name="size" value="ymall">
+                    <label for="youthSmall">Youth Small</label>
+                    <input type="radio" id="youthMedium" name="size" value="ymedium">
+                    <label for="youthMedium">Youth Medium</label>
+                    <input type="radio" id="youthLarge" name="size" value="ylarge">
+                    <label for="youthLarge">Youth Large</label>
                     <input type="radio" id="small" name="size" value="small">
-                    <label for="size">Small</label>
+                    <label for="small">Small</label>
                     <input type="radio" id="medium" name="size" value="medium">
-                    <label for="size">Medium</label>
+                    <label for="medium">Medium</label>
                     <input type="radio" id="large" name="size" value="large">
-                    <label for="size">Large</label>
+                    <label for="large">Large</label>
                     <input type="radio" id="xLarge" name="size" value="xLarge">
-                    <label for="size">Extra Large</label>
+                    <label for="xLarge">Extra Large</label>
 
                 </fieldset>
+                <Fieldset>
                 <h4>Permition to play</h4>
                 <p class="regis">I, the parent or guardian of the minor registrant, agree that the registrant and I will
                     abide by all
@@ -133,9 +132,18 @@
                     acknowledge
                     that I have read the cancellation policy and agree to its terms.</p>
                 <h4>Accept and Submit:</h4>
-
+                <ul>
+                    <li>
+                        <label for="parent">Parent/GuardianSignature:</label>
+                        <input type="text" id="parent" name="parent">
+                    </li>
+                    <li>
+                        <label for="day">Date:</label>
+                        <input type="date" id="day" name="day">
+                    </li>
+                </ul>
                 <input type="submit" value="SEND!">
-
+            </Fieldset>
             </form>
         </article>
     </main>
